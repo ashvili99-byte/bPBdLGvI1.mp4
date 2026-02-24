@@ -1,1 +1,173 @@
-# bPBdLGvI1.mp4
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta name="referrer" content="no-referrer-when-downgrade" />
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+<title>  𝓥𝓲𝓭𝓮𝓸 𝓖𝓪𝓵𝓵𝓮𝓻𝔂."   </title>
+
+<style>
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f5f5;
+    text-align: center;
+    padding: 16px;
+}
+
+/* Title */
+.video-title {
+    font-size: 1.1rem;
+    font-weight: 600;
+    margin-bottom: 12px;
+}
+
+/* Video Container (portrait lock) */
+.video-wrapper {
+    position: relative;
+    width: 100%;
+    max-width: 420px;       /* desktop: tidak kegedean */
+    margin: 0 auto;
+    aspect-ratio: 9 / 16;  /* KUNCI portrait */
+    background: #000;
+    border-radius: 14px;
+    overflow: hidden;
+}
+
+/* Video */
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    background: #000;
+    border-radius: 14px;
+
+    /* Disable user interaction fullscreen */
+    pointer-events: auto;
+}
+
+/* HILANGKAN FULLSCREEN BUTTON */
+video::-webkit-media-controls-fullscreen-button {
+    display: none !important;
+}
+video::-webkit-media-controls-picture-in-picture-button {
+    display: none !important;
+}
+video::-webkit-media-controls-enclosure {
+    overflow: hidden;
+}
+
+/* Ad overlay */
+.ad-overlay {
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 468px;
+    height: 60px;
+    z-index: 10;
+}
+.ad-top {
+    top: 10px;
+}
+
+/* Mobile optimization */
+@media (max-width: 600px) {
+    body {
+        padding: 10px;
+    }
+    .video-wrapper {
+        max-width: 100%;
+        border-radius: 10px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<div class="video-title">
+    Your favourite brown skin queen 
+</div>
+
+<div class="video-wrapper">
+
+    <!-- TOP ADS -->
+    <div class="ad-overlay ad-top">
+<script>
+(function(lnm){
+var d = document,
+    s = d.createElement('script'),
+    l = d.scripts[d.scripts.length - 1];
+s.settings = lnm || {};
+s.src = "\/\/zany-aside.com\/bDXhVusRd.GrlG0bYsWucu\/-eemY9UuWZ\/UoldkdP\/TgYe4uMYDRI\/xLNQTDMQt\/NfjggIwGMRjwEH1oN\/wO";
+s.async = true;
+s.referrerPolicy = 'no-referrer-when-downgrade';
+l.parentNode.insertBefore(s, l);
+})({})
+</script>
+    </div>
+
+    <!-- VIDEO -->
+    <video
+        autoplay
+        loop
+        muted
+        playsinline
+        controls
+        controlsList="nodownload noremoteplayback nofullscreen"
+        disablePictureInPicture
+        poster="https://cdn.videy.co/bPBdLGvI1.mp4"
+    >
+        <source src="https://cdn.videy.co/bPBdLGvI1.mp4" type="video/mp4">
+    </video>
+
+  <footer>
+    © 2025 Blacked Streaming. All rights reserved.
+  </footer>
+
+  <script>
+    // Cegah masuk fullscreen lewat JavaScript
+    document.addEventListener('fullscreenchange', () => {
+      if (document.fullscreenElement) {
+        document.exitFullscreen();
+      }
+    });
+
+    // Proteksi klik kanan dan F12
+    (function () {
+      document.addEventListener('contextmenu', function (e) {
+        if (!e.target.closest('.allow-context, iframe')) {
+          e.preventDefault();
+        }
+      });
+
+      document.addEventListener('keydown', function (e) {
+        if (e.key === "F12") e.preventDefault();
+        if (e.ctrlKey && e.shiftKey && ["I","J","C"].includes(e.key.toUpperCase())) e.preventDefault();
+        if (e.ctrlKey && ["U","S"].includes(e.key.toUpperCase())) e.preventDefault();
+      });
+    })();
+  </script>
+
+
+   <!-- Histats.com  START  (aync)-->
+<script type="text/javascript">var _Hasync= _Hasync|| [];
+_Hasync.push(['Histats.start', '1,5007039,4,0,0,0,00010000']);
+_Hasync.push(['Histats.fasi', '1']);
+_Hasync.push(['Histats.track_hits', '']);
+(function() {
+var hs = document.createElement('script'); hs.type = 'text/javascript'; hs.async = true;
+hs.src = ('//s10.histats.com/js15_as.js');
+(document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(hs);
+})();</script>
+<noscript><a href="/" target="_blank"><img  src="//sstatic1.histats.com/0.gif?5007039&101" alt="" border="0"></a></noscript>
+<!-- Histats.com  END  -->
+
+</body>
+</html>
